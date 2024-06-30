@@ -97,24 +97,25 @@ const HeroSection: React.FC = () => {
             px="0"
             title={
               <FallInPlace>
-                Build beautiful
-                <Br /> software faster
+                Asset Inventory Managment
+                <Br /> Made Easy.
               </FallInPlace>
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                Saas UI is a <Em>React component library</Em>
-                <Br /> that doesn&apos;t get in your way and helps you <Br />{" "}
-                build intuitive SaaS products with speed.
+                Manage your <Em>Organization's Assets</Em> Easily
+                <Br /> so it doesn&apos;t get in your way and helps you <Br />{" "}
+                focus on what matters.
               </FallInPlace>
             }
           >
             <FallInPlace delay={0.8}>
-              <HStack pt="4" pb="12" spacing="8">
+              {/* <HStack pt="4" pb="12" spacing="8">
                 <NextjsLogo height="28px" /> <ChakraLogo height="20px" />
-              </HStack>
+              </HStack> */}
 
-              <ButtonGroup spacing={4} alignItems="center">
+
+              <ButtonGroup spacing={4} alignItems="center" pt="8">
                 <ButtonLink colorScheme="primary" size="lg" href="/signup">
                   Sign Up
                 </ButtonLink>
